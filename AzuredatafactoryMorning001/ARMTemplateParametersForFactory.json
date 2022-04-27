@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AzuredatafactoryMorning001"
+		},
+		"LS_BlobConnectionm001_properties_typeProperties_connectionString_secretName": {
+			"value": "BlobConnectionString"
+		},
+		"LS_KeyvaultM001_properties_typeProperties_baseUrl": {
+			"value": "https://AzurekeyvaultMorning001.vault.azure.net/"
+		},
+		"LS_adlsgen2sam001_properties_typeProperties_url": {
+			"value": "https://adlsgen2sam001.dfs.core.windows.net"
+		},
+		"LS_azuresqlconnectionm001_properties_typeProperties_connectionString_secretName": {
+			"value": "AzureKVSecretMorning001"
+		}
+	}
+}
