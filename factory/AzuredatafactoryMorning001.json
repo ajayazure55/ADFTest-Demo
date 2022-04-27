@@ -1,0 +1,15 @@
+{
+	"name": "AzuredatafactoryMorning001",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "8de10825-6b9a-4302-9e53-61e270256342",
+		"tenantId": "c24a1e2a-ab72-4c74-a893-5eda7dcc4158",
+		"userAssignedIdentities": {
+			"/subscriptions/16d54195-7175-4f63-862d-d287a770e7b1/resourcegroups/AzureMorning001/providers/Microsoft.ManagedIdentity/userAssignedIdentities/userassignedmanagedidentitym001": {
+				"clientId": "19e421f4-235a-4891-86a7-5baee5988fe2",
+				"principalId": "2eafa2cd-33f5-4e48-96fc-ec8471ec527a"
+			}
+		}
+	}
+}
